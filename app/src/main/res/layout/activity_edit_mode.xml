@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context="com.example.android.mybookskeeper.EditModeActivity">
+
+
+    <EditText
+        android:id="@+id/edit_book_title"
+        android:hint="@string/hintTitle"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textCapWords" />
+
+
+    <EditText
+        android:id="@+id/edit_book_author"
+        android:hint="@string/hintAuthor"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textCapWords"/>
+
+
+    <Switch
+        android:id="@+id/isReadSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:switchPadding="20dp"
+        android:switchMinWidth="60dp"
+        android:layout_margin="15dp"
+        android:textOn="@string/yes"
+        android:textOff="@string/no"
+        android:text="@string/read" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="10dp" />
+
+    <TextView
+            android:id="@+id/textViewRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_margin="15dp"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:rating="0"
+            android:layout_margin="10dp"
+            android:stepSize="1.0"/>
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:padding="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/save" />
+
+</LinearLayout>
+</ScrollView>

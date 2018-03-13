@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Moja biblioteczka</string>
+    <string name="title_activity_already_read"></string>
+    <string name="title_activity_edit_mode">Edit Mode</string>
+
+    <string name="read">Przeczytane</string>
+    <string name="wannaRead">Chcę przeczytać</string>
+    <string name="options">Opcje</string>
+
+    <string name="hintAuthor">Autor książki</string>
+    <string name="hintTitle">Tytuł książki</string>
+
+    <string name="save">Zapisz</string>
+    <string name="edit">Edytuj</string>
+    <string name="delete">Usuń</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="back">Wróć</string>
+    <string name="share">Udostępnij przez SMS</string>
+    <string name="recommend">Polecam książkę: </string>
+
+    <string name="deleteConfirm">Czy usunąć?</string>
+
+
+    <string name="editBook">Edycja książki</string>
+    <string name="addBook">Nowa książka</string>
+
+
+    <string name="rating">Ocena</string>
+    <string name="rating2">Jak bardzo chcę przeczytać</string>
+
+    <string name="fill">Uzupełnij pola</string>
+
+    <string name="deleteAll">Usuń wszystkie z tej półki</string>
+    <string name="orderBy">Sortuj wg </string>
+    <string name="byTitle">tytułu - alfabetycznie</string>
+    <string name="byAuthor">autorze - alfabetycznie</string>
+    <string name="byRating">od najwyższej oceny</string>
+
+
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.mybookskeeper.MainActivity">
+
+        <ImageView android:id="@+id/imageBookshelf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:padding="10dp"
+            android:layout_margin="30dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/bookshelf" />
+
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="50sp"
+            android:orientation="vertical">
+
+            <Button android:id="@+id/read"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="@string/read" />
+
+            <Button android:id="@+id/wannaRead"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center" android:text="@string/wannaRead" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
